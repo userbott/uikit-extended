@@ -1,0 +1,28 @@
+html, body {
+	background: #f5f5f5;
+}
+
+.uk-container {
+  box-sizing: content-box;
+  /* 1 */
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* Phone landscape and bigger */
+@media (min-width: 640px) {
+  .uk-container {
+	min-width: 960px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+/* Tablet landscape and bigger */
+@media (min-width: 960px) {
+  .uk-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
