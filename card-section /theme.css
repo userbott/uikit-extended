@@ -1,0 +1,61 @@
+.featured {
+  background-image: url("https://picsum.photos/620/350/?image=690");
+}
+
+.news-cards {
+  background-image: url("https://source.unsplash.com/random");
+  padding-left: 30px;
+}
+
+.featured-text {
+  background-color: #ffffffc2;
+}
+
+.news-text-bck {
+  background-color: #000000c7;
+  transition: all 0.15s ease-out;
+}
+
+.news-text-bck:hover {
+  /* white-space: normal; */
+  transition: all 0.15s ease-out;
+  background-color: rgba(0, 0, 0, 0.78);
+}
+
+.subtitle-text-block {
+  overflow: hidden;
+  position: relative;
+  line-height: 1.4em;
+  max-height: 0em;
+  margin-right: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: 1em;
+  transition: all 0.35s ease-out;
+}
+.subtitle-text-block:before {
+  font-family: 'fontawesome';
+  content: '\f107';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.subtitle-text-block:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  /* width: 1em;
+  height: 1em; */
+  margin-top: 0.2em;
+  background: white;
+}
+
+.card-hover:hover .subtitle-text-block {
+  transition: all 0.35s ease-out;
+  max-height: 9em;
+}
+
+.card-hover:hover .subtitle-text-block:before {
+  content: '';
+  transition: all 0.35s ease-out;
+}
